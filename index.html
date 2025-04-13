@@ -1,0 +1,337 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Restaurant Website</title>
+    <meta name="description" content="Restaurant">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Boxicons for Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="restaurant-header">
+        <div class="logo">
+            <img class="logo-container" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0pC1DOfD6H-HQkW94e7SDOO2u8AjRVxt8LQ&s" 
+            alt="Rupa's Kitchen Logo" width="80" height="80">
+            <h1>Rupa's Kitchen</h1>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav-list">
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#food menu">Menu</a></li>
+                <li><a href="#about us">About Us</a></li>                
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#contact us">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <i class="bx bx-menu"></i>
+        </div>
+    </header>
+
+      
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="slider">
+        <div class="slides">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="https://miro.medium.com/v2/resize:fit:750/1*aAd595n--WgtM59X97Sygg.jpeg" alt="Delicious Food">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="https://transcode-v2.app.engoo.com/image/fetch/f_auto,c_lfill,w_300,dpr_3/https://assets.app.engoo.com/organizations/5d2656f1-9162-461d-88c7-b2505623d8cb/images/56YazJ2QB9A1TClJt7MkFQ.jpeg">
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="https://thumbs.dreamstime.com/b/vibrant-platter-biryani-colorful-spices-presenting-delicious-visually-appealing-culinary-display-highlights-338321447.jpg">
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h4 class="heading-title">WELCOME TO RUPA'S KITCHEN</h4>
+            <h1 class="heading-second-title">AUTHENTIC INDIAN DELICIOUS FOOD AND FRESH INGREDIENTS</h1>
+            <h3 class="heading-subtitle">
+                We have a proper passion for cooking.<br>
+                Love is the secret ingredient that makes all our meals taste better and magical.
+            </h3>
+            <div class="heading-button">
+                <h2 class="heading-button-text">Explore Food</h2>
+            </div>
+        </div>
+    </div>
+</section>
+      
+      <!--menu section-->
+    <section id="food menu" class="food-menu">
+      <h2 class="menu-title">&#124&#124 Our Special Menu &#124&#124</h2>
+      
+
+      <div class="food-grid">
+         <!-- Food Item 1 -->
+          <div class="food-item">
+            <img src="https://rakskitchen.net/wp-content/uploads/2012/06/7419192444_67008fc1c2_z.jpg">
+            <h3>Poori</h3>
+            <p>Fluffy fried breads served with curry.</p>
+            <span class="price">$15.99</span>
+            <button class="buy-now">Buy Now</button>
+            
+          </div>
+          <!-- Food Item 2 -->
+          <div class="food-item">
+            <img src="https://i.pinimg.com/236x/81/d8/89/81d8892fe575d18be6afdd32a7ca5857.jpg">
+            <h3>Dosa</h3>
+            <p>Rice pancake with chutney and sambar.</p>
+            <span class="price">$10.99</span>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <!-- Food Item 3-->
+        <div class="food-item">
+          <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/mirchi-bajji-mirapakaya-bajji-recipe.jpg">
+          <h3>Mirchi bajji</h3>
+          <p>Served with tomato Ketchup</p>
+          <span class="price">$10.99</span>
+          <button class="buy-now">Buy Now</button>
+      </div>
+      <!-- Food Item 4-->
+      <div class="food-item">
+        <img src="https://cdn1.foodviva.com/static-content/food-images/snacks-recipes/pani-puri/pani-puri.jpg">
+        <h3>Pani-puri</h3>
+        <p>Crispy balls served with spicy water.</p>
+        <span class="price">$7.99</span>
+        <button class="buy-now">Buy Now</button>
+    </div>
+    <!-- Food Item 5-->
+    <div class="food-item">
+      <img src="https://static.toiimg.com/thumb/53094793.cms?imgsize=178546&width=800&height=800">
+      <h3>Goat Biryani</h3>
+      <p>Traditional Dish</p>
+      <span class="price">$20.99</span>
+      <button class="buy-now">Buy Now</button>
+  </div>
+  <!-- Food Item 6-->
+  <div class="food-item">
+    <img src="https://c.ndtvimg.com/2020-12/gsb6apq_biryani_625x300_23_December_20.jpg">
+    <h3>Chicken Biryani</h3>
+    <p>Traditional Dish</p>
+    <span class="price">$20.99</span>
+    <button class="buy-now">Buy Now</button>
+</div>
+<!-- Food Item 7-->
+<div class="food-item">
+  <img src="https://pipingpotcurry.com/wp-content/uploads/2019/09/Vegetable-Biryani-Instant-Pot-Piping-Pot-Curry-4.jpg">
+  <h3>Vegetable Pulav</h3>
+  <p>Traditional Dish</p>
+  <span class="price">$20.99</span>
+  <button class="buy-now">Buy Now</button>
+</div>
+<!-- Food Item 8-->
+<div class="food-item">
+  <img src="https://assets.zeezest.com/blogs/PROD_Id-1100-rice-pulao-biryani-banner_1622359362198_thumb_1200.jpeg">
+  <h3>Pulav Rice</h3>
+  <p>Traditional Dish</p>
+  <span class="price">$20.99</span>
+  <button class="buy-now">Buy Now</button>
+</div>
+<!-- Food Item 9-->
+<div class="food-item">
+  <img src="https://preview.redd.it/zz6req31xhq51.jpg?width=640&crop=smart&auto=webp&s=5159cc2dad52c2739d7cf37c9654ca02dad7910f">
+  <h3>Chicken Curry</h3>
+  <p>Naan With Curry</p>
+  <span class="price">$17.99</span>
+  <button class="buy-now">Buy Now</button>
+</div>
+<!-- Food Item 10-->
+<div class="food-item">
+  <img src="https://www.chefadora.com/_next/image?url=https%3A%2F%2Fchefadora.b-cdn.net%2F003f0f0351967a7cb6212a8d9bfaf889_f956154e73.jpg&w=3840&q=75">
+  <h3>Gulabjamun</h3>
+  <p>Sweet Receipe</p>
+  <span class="price">$7.99</span>
+  <button class="buy-now">Buy Now</button>
+</div>
+<!-- Food Item 11-->
+<div class="food-item">
+  <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/veg-noodles-vegetable-noodles-recipe.jpg">
+  <h3>Veg Noodles</h3>
+  <p>Mixed With all Vegies and egg</p>
+  <span class="price">$11.99</span>
+  <button class="buy-now">Buy Now</button>
+</div>
+        
+<!-- Food Item 12-->
+        
+<div class="food-item">
+  <img src="https://darbaarkitchen.com/wp-content/uploads/2024/10/DALL%C2%B7E-2024-10-24-15.18.38-A-close-up-image-of-Chicken-65-served-on-a-simple-white-plate.-The-dish-consists-of-crispy-deep-fried-boneless-chicken-pieces-coated-in-a-vibrant-red.webp">
+  
+  <h3>Chicken-65</h3>
+  <p>Chicken fried in oil</p>
+  <span class="price">$15.99</span>
+  <button class="buy-now">Buy Now</button>
+</div>
+  </div>
+      
+      
+  <!--about us section-->
+      
+<section id="about us" class="about-us">
+  <div class="about-container">
+  <div class="about-image">
+    <img src="https://media.cntraveler.com/photos/652d4cf1b71c65c5874e4eb1/master/w_1600%2Cc_limit/lupa.jpg">    
+  </div>
+  <div class="about-content">
+    <h2>About Rupa's Kitchen</h2>
+    <p>Welcome to **Rupa's Kitchen**, where flavors come to life!  
+      Established in **2010**, our restaurant is dedicated to serving 
+      authentic, delicious, and freshly prepared dishes that bring people together.
+    </p>
+    <p>We believe that food is not just about taste, but also about 
+      creating **memorable experiences**. Our chefs use only the finest ingredients 
+      to prepare traditional and modern dishes that satisfy your cravings.</p>
+      <p>The three main pillars of hospitality(especially in restaurants) are:Ambience,Service and Taste.<br>
+        We at Rupa's Kitchen want to bring these 3 Facts to you with garnish of our love for great food.</p>
+    <button class="explore-menu">Explore Our Menu</button>
+  </div>
+  </div>
+</section>
+  
+    <!--Blog's section-->
+    <main>
+<section id="blog" class="blogs-section">
+<h2>Our Latest Blogs</h2>
+
+<!-- Article Section -->
+<article>
+  <h2>Insights & Stories</h2>
+  <p>Explore our latest thoughts on culinary trends, recipes, and more. Dive into our world of flavors!</p>
+</article>
+
+<div class="blogs-container">
+  <!-- Blog Post 1 -->
+ <div class="blog-card">
+ <div class="blog-content">
+  <div class="blog-header">
+<img src="https://b.zmtcdn.com/data/pictures/chains/1/2800901/1f8b4b00a89350f81d7cf4846b62520e.jpg?fit=around|960:500&crop=960:500;">
+ <h3 class="blog-title">The Ultimate tasty and yummy biryani</h3>
+   </div>
+ <a href="https://spicediary.com/2020/09/chicken-dum-biryani/" class="read-more">Read More</a>
+    </div>
+    </div>
+
+        <!-- Blog Post 2 -->
+    <div class="blog-card">
+    <div class="blog-content">
+    <div class="blog-header">
+    <img src="https://www.thefillingstation.in/cdn/shop/files/BesanPistachioLaddoo1stImage.png?v=1723812560">
+    <h3 class="blog-title">How to Make Perfect Laddu at Home</h3>
+    </div>
+    <a href="https://meinblogland.blogspot.com/2022/01/recipe-of-month-besan-laddu.html" class="read-more">Read More</a>
+     </div>
+    </div>
+
+        <!-- Blog Post 3 -->
+        <div class="blog-card">
+        <div class="blog-content">
+        <div class="blog-header">
+        <img src="https://nishkitchen.com/wp-content/uploads/2012/05/Kerala-Fish-Fry-1B.jpg">
+        <h3 class="blog-title">How to make fish fry</h3>
+        </div>
+        <a href="https://www.theseafoodblog.com/indian-fish-fry/" class="read-more">Read More</a>
+        </div>
+        </div>
+    </div>
+</section>
+<aside>
+  <p> hello! </p>
+</aside>
+</main>
+      
+      <!--reservation's Section-->     
+  <section id="contact us" class="reservation-section">
+  <div class="reservation-container">
+        <!-- Reservation Image -->
+  <div class="reservation-image">
+  <img src="https://media.licdn.com/dms/image/C5612AQGPgWwQxrj1Jg/article-cover_image-shrink_600_2000/0/1647506988774?e=2147483647&v=beta&t=DoKWvjuuXu5eDbC7a-wsZf1j0cFklNd-YRAgQup8qRs" height=600px>
+        </div>
+
+    <!-- Reservation Form -->
+     <div class="reservation-form">
+      <h2>Book a Table</h2>
+         <form id="reservationForm">
+         <label for="name">Full Name:</label>
+         <input type="text" id="name" placeholder="Enter your name">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email">
+
+           <label for="phone">Phone Number:</label>
+           <input type="tel" id="phone" placeholder="Enter your phone number" >
+
+           <label for="date">Reservation Date:</label>
+            <input type="date" id="date">
+
+           <label for="time">Reservation Time:</label>
+           <input type="time" id="time">
+
+           <label for="guests">Number of Guests:</label>
+           <input type="number" id="guests" placeholder="Enter number of guests">
+
+           <button type="submit">Reserve Now</button>
+           </form>
+        </div>
+    </div>
+</section>
+      
+      
+      
+<!--Footer section-->
+      
+  <footer class="footer-section">
+    <div class="footer-container">        
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p><i class='bx bxs-phone'></i>+1 234 567 890</p>
+            <p><i class='bx bx-map' ></i> 123 Gorden Street, Melbourne City, 45678</p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <span class="social-icon"><i class='bx bxl-facebook-circle' ></i></span>
+                <span class="social-icon"><i class='bx bxl-twitter' ></i></span>
+                <span class="social-icon"><i class='bx bxl-instagram' ></i></span>
+                <span class="social-icon"><i class='bx bxl-linkedin-square' ></i></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 Rupa's kitchen. All Rights Reserved.</p>
+    </div>
+</footer>  
+ 
+    
+    
+
+  </body>
+  </html>    
